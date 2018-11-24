@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="canonical" href="https://www.hexstreamsoft.com/libraries/first-time-value/" />
+    <meta name="author" content="Jean-Philippe Paradis" />
+    <link rel="author" href="https://abc.hexstream.xyz/" />
+    <link rel="license" href="https://www.hexstreamsoft.com/UNLICENSE" />
+    <meta name="description" content="Returns the result of evaluating a form in the current lexical and dynamic context the first time it's encountered, and the cached result of that computation on subsequent evaluations." />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>first-time-value | Libraries | HexstreamSoft</title>
+    <link href="https://www.hexstreamsoft.com/css/global.css" rel="stylesheet" type="text/css" />
+    <link href="https://www.hexstreamsoft.com/libraries/libraries.css" rel="stylesheet" type="text/css" />
+    <link href="https://global.hexstreamsoft.com/css/cl-definitions.css" rel="stylesheet" type="text/css" />
+    <script src="https://global.hexstreamsoft.com/scripts/global.js"></script>
+    <script src="https://www.hexstreamsoft.com/scripts/global.js"></script>
+    <script src="https://www.hexstreamsoft.com/libraries/libraries.js" defer></script>
+  </head>
+
+  <body>
+
+    <nav id="top-nav">
+
+      <div class="main">
+
+        <div class="breadcrumbs">
+          <a href="https://www.hexstreamsoft.com/">HexstreamSoft</a>
+          <span class="crumb"><span class="s"> » </span><a href="https://www.hexstreamsoft.com/libraries/">Libraries</a></span>
+          <span class="crumb"><span class="s"> » </span><a class="here">first-time-value</a></span>
+        </div>
+
+        <nav class="tabs" id="meta-nav">
+          <ul>
+            <li><a class="github" href="https://github.com/Hexstream/first-time-value"><span>See on GitHub</span></a></li>
+          </ul>
+        </nav>
+
+      </div>
+
+      <p id="last-updated"><span>This page was last updated on </span><time datetime="2018-11-24">24 november 2018</time><span>.</span></p>
+
+    </nav>
+
+    <main>
+
+      <header id="page-header">
+        <h1>first-time-value</h1>
+      </header>
+
+      <div class="tags contains-groups">
+        <div class="group prominent">
+          <span class="tag hv license">
+            <span class="h">License<span>:</span></span>
+            <span class="v">Public Domain</span>
+          </span>
+          <span class="s">, </span>
+          <span class="tag hv quicklisp">
+            <span class="h">Load it with Quicklisp<span>:</span></span>
+            <code class="v">(ql:quickload "first-time-value")</code>
+          </span>
+        </div>
+        <div class="group">
+          <span class="tag hv">
+            <span class="h">Library type<span>:</span></span>
+            <span class="v">Macro</span>
+          </span>
+          <span class="s">, </span>
+          <span class="tag hv">
+            <span class="h">Project complexity<span>:</span></span>
+            <span class="v">Trivial</span>
+          </span>
+        </div>
+      </div>
+
+      <nav class="tabs" id="further-info">
+        <ul>
+          <li><a href="https://www.hexstreamsoft.com/libraries/releases/latest-versions/#first-time-value">Latest release</a></li>
+          <li><a href="https://www.hexstreamsoft.com/libraries/dependencies/#first-time-value">Dependencies</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://www.hexstreamsoft.com/libraries/external-pages-xref/#first-time-value">External library pages</a></li>
+        </ul>
+      </nav>
+
+      <section id="introduction">
+
+        <p><dfn><code class="relevant">first-time-value</code></dfn> returns the result of evaluating a form in the current lexical and dynamic context the first time it's encountered, and the cached result of that computation on subsequent evaluations.</p>
+
+      </section>
+
+      <nav class="tabs">
+        <ul>
+          <li><a href="#dictionary">Dictionary</a></li>
+        </ul>
+      </nav>
+
+      <section id="dictionary">
+
+        <h1 class="breadcrumbs-bar">
+          <span class="section-relative-nav">
+            <a href="#dictionary" class="anchor">⚓</a>
+          </span>
+          <span class="breadcrumbs">
+            <a href="#">first-time-value</a>
+            <span class="crumb"><span class="s"> » </span><a class="here">Dictionary</a></span>
+          </span>
+        </h1>
+
+        <nav class="tabs">
+          <ul>
+            <li><a href="#dictionary_first-time-value"><span class="type">Package</span> <code>first-time-value</code></a></li>
+            <li><a href="#dictionary_first-time-value"><span class="type">Macro</span> <code>first-time-value</code></a></li>
+            <li><a href="#dictionary_first-time-values"><span class="type">Macro</span> <code>first-time-values</code></a></li>
+          </ul>
+        </nav>
+
+        <section id="dictionary_first-time-value">
+
+          <h1 class="breadcrumbs-bar">
+            <span class="section-relative-nav">
+              <a href="#dictionary_first-time-value" class="anchor">⚓</a>
+            </span>
+            <span class="breadcrumbs">
+              <a href="#dictionary" class="ellipsis">...<sub>2</sub></a>
+              <span class="crumb"><span class="s"> » </span><a class="here">first-time-value</a></span>
+            </span>
+          </h1>
+
+          <article class="package definition">
+
+            <h1><span class="type">Package</span> <span class="name self">first-time-value</span></h1>
+
+            <section class="description">
+              <h1>Description</h1>
+              <p>Simply import <code class="relevant"><a href="#dictionary_first-time-value">first-time-value</a></code> (and possibly also <code class="relevant"><a href="#dictionary_first-time-values">first-time-values</a></code>) for normal usage. Don't <code>(:use)</code>!</p>
+              <p>This package will be mostly designed for explicit qualification of symbols if it ever exports more symbols, such as <code>first-time-value:foo</code>.</p>
+            </section>
+
+          </article>
+
+          <article class="macro definition">
+
+            <h1><span class="type">Macro</span> <span class="name self">first-time-value</span></h1>
+
+            <p class="args-and-retvals"><var>form</var> =&gt; <var>object</var></p>
+
+            <section class="arguments-and-values">
+              <h1>Arguments and Values</h1>
+              <ul>
+                <li><var>form</var> -- A form. Evaluated as described below.</li>
+                <li><var>object</var> -- An object. The primary value returned by <var>form</var> the first time it evaluates successfully (without performing a non-local exit).</li>
+              </ul>
+            </section>
+
+            <section class="description">
+              <h1>Description</h1>
+              <p>On first evaluation, <code class="relevant">first-time-value</code> attempts to evaluate <var>form</var> in the current lexical and dynamic context and cache the primary value it returns, and return that value.</p>
+              <p>If <var>form</var> performed a non-local exit, then the next evaluation of this <code class="relevant">first-time-value</code> call will perform the aforementioned steps again.</p>
+              <p>On subsequent evaluations after a successful evaluation of <var>form</var>, <code class="relevant">first-time-value</code> ignores <var>form</var> and returns the value that was previously cached.</p>
+              <p><code class="relevant">first-time-value</code> is similar to <a href="http://www.lispworks.com/documentation/HyperSpec/Body/s_ld_tim.htm" target="_blank">load-time-value</a>, but evaluates its <var>form</var> in the current lexical and dynamic environment instead of in a null environment, and at the time that code at that location would normally be executed instead of at load time.</p>
+            </section>
+
+          </article>
+
+        </section>
+
+        <section id="dictionary_first-time-values">
+
+          <h1 class="breadcrumbs-bar">
+            <span class="section-relative-nav">
+              <a href="#dictionary_first-time-values" class="anchor">⚓</a>
+            </span>
+            <span class="breadcrumbs">
+              <a href="#dictionary" class="ellipsis">...<sub>2</sub></a>
+              <span class="crumb"><span class="s"> » </span><a class="here">first-time-values</a></span>
+            </span>
+          </h1>
+
+          <article class="macro definition">
+
+            <h1><span class="type">Macro</span> <span class="name self">first-time-values</span></h1>
+
+            <p class="args-and-retvals"><var>form</var> =&gt; <var>object*</var></p>
+
+            <section class="arguments-and-values">
+              <h1>Arguments and Values</h1>
+              <ul>
+                <li><var>form</var> -- A form.</li>
+                <li><var>objects</var> -- All values returned by <var>form</var> the first time it evaluates successfully (without performing a non-local exit).</li>
+              </ul>
+            </section>
+
+            <section class="description">
+              <h1>Description</h1>
+              <p>Like <code class="relevant"><a href="#dictionary_first-time-value">first-time-value</a></code>, except that <em>all</em> values returned from <var>form</var> are cached and returned instead of only the primary value.</p>
+              <div class="scroll">
+
+                <pre class="example"><code class="common-lisp">(<code class="relevant">first-time-values</code> <var>form</var>) == (values-list (<code class="relevant"><a href="#dictionary_first-time-value">first-time-value</a></code> (multiple-value-list <var>form</var>)))</code></pre>
+
+              </div>
+            </section>
+
+          </article>
+
+        </section>
+
+      </section>
+
+    </main>
+
+    <footer id="footer">
+      <div class="back-to-top left">
+        <a href="#">⬆</a>
+      </div>
+      <div class="main">
+        <a href="https://validator.w3.org/check?uri=http%3A%2F%2Fwww.hexstreamsoft.com%2Flibraries%2Ffirst-time-value%2F">✔ HTML5</a>
+        <a href="https://www.hexstreamsoft.com/README">✔ Public Domain</a>
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.hexstreamsoft.com%2Flibraries%2Ffirst-time-value%2F">✔ CSS3</a>
+        <a>✔ Mobile-friendly</a>
+      </div>
+      <div class="back-to-top right">
+        <a href="#">⬆</a>
+      </div>
+    </footer>
+
+  </body>
+</html>
