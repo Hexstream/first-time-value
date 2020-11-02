@@ -1,7 +1,7 @@
 Project's home: https://www.hexstreamsoft.com/libraries/first-time-value/
 
 
-Returns the result of evaluating a form in the current lexical
+first-time-value returns the result of evaluating a form in the current lexical
 and dynamic context the first time it's encountered, and the cached result
 of that computation on subsequent evaluations.
 
