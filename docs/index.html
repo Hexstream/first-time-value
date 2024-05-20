@@ -177,7 +177,7 @@
               <p>On first evaluation, <code class="relevant">first-time-value</code> attempts to evaluate <var>form</var> in the current lexical and dynamic context and cache the primary value it returns, and return that value.</p>
               <p>If <var>form</var> performed a non-local exit, then the next evaluation of this <code class="relevant">first-time-value</code> call will perform the aforementioned steps again.</p>
               <p>On subsequent evaluations after a successful evaluation of <var>form</var>, <code class="relevant">first-time-value</code> ignores <var>form</var> and returns the value that was previously cached.</p>
-              <p><code class="relevant">first-time-value</code> is similar to <a href="http://www.lispworks.com/documentation/HyperSpec/Body/s_ld_tim.htm" target="_blank">load-time-value</a>, but evaluates its <var>form</var> in the current lexical and dynamic environment instead of in a null environment, and at the time that code at that location would normally be executed instead of at load time.</p>
+              <p><code class="relevant">first-time-value</code> is similar to <a href="https://www.lispworks.com/documentation/HyperSpec/Body/s_ld_tim.htm" target="_blank">load-time-value</a>, but evaluates its <var>form</var> in the current lexical and dynamic environment instead of in a null environment, and at the time that code at that location would normally be executed instead of at load time.</p>
             </section>
 
           </article>
